@@ -1,1 +1,9 @@
 streamlit
+fastapi
+uvicorn
+feedparser
+requests
+beautifulsoup4
+pandas
+sqlite-utils
+python-dotenv
