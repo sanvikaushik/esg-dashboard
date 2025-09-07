@@ -1,7 +1,6 @@
 # core
 python-dotenv==1.0.1
 pydantic==2.8.2
-pydantic-core==2.20.1
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
@@ -10,10 +9,11 @@ feedparser==6.0.11
 beautifulsoup4==4.12.3
 
 # transformers + nlp
+huggingface-hub==0.24.6
 transformers==4.43.3
-torch>=2.2.0
-sentencepiece>=0.1.99
-accelerate>=0.33.0
+torch==2.2.2
+sentencepiece==0.1.99
+accelerate==0.33.0
 sentence-transformers==3.0.1
 
 # vector store
@@ -21,8 +21,9 @@ chromadb==0.5.11
 
 # web/API/UI
 fastapi==0.112.1
-uvicorn==0.30.5
+uvicorn[standard]==0.30.5
 streamlit==1.37.1
+httpx==0.27.2
 
 # plots
 matplotlib==3.8.4
