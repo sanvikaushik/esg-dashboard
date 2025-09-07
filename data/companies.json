@@ -1,0 +1,14 @@
+[
+    {
+        "ticker": "SHOP.TO",
+        "name": "Shopify",
+        "aliases": ["Shopify", "SHOP"],
+        "sector": "Technology"
+    },
+    {
+        "ticker": "JPM",
+        "name": "JPMorgan Chase",
+        "aliases": ["JPMorgan", "JPMorgan Chase", "JPM"],
+        "sector": "Financials"
+    }
+]
